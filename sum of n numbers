@@ -1,0 +1,23 @@
+<!--Sum.html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sum up the numbers</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            function sum(){
+                var res=0;
+                var a=parseInt(prompt("Enter first number: "));
+                res=res+a;
+                while(confirm("add more number?")){
+                    var c=parseInt(prompt("Enter number: "));
+                    res=res+c;
+                }
+                alert("The sum of the numbers is: "+res);
+            }
+            sum();
+        </script>
+
+    </body>    
+</html>
