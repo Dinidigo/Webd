@@ -1,0 +1,23 @@
+<fact.html>
+<html>
+    <head>
+        <title>Factorial</title>
+        <script language="javascript">
+            function factorialcalc(){
+                number=parseInt(prompt("Enter a number, I'll calculate its factorial, whole number greater than zero, please..."));
+                factorial=1;
+                for(var i=1; i<=number; i++){
+                    factorial=factorial*i;
+
+                }
+                alert("the gactorial of"+number+"is"+factorial);
+            }
+        </script>
+    </head>
+    <body align="center">
+        <form name="form">
+            <input type="button" value="Factorial" onclick="factorialcalc()">
+
+        </form>
+    </body>
+</html>
